@@ -5,11 +5,13 @@
     "licence": "CC BY-NC-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "copyright": "© 2026 EcoTrax, Geneva, Switzerland",
-    "attribution": "Derived from Agribalyse 3.1 (ADEME), Mobitool.ch 2023, WRAP UK. Full methodology at https://ecotrax-events.vercel.app/methodology",
+    "source_repository": "https://github.com/pyingzhu/ecotrax-emission-factors",
+    "attribution": "Derived from Agribalyse 3.1 (ADEME), Mobitool.ch 2023, WRAP UK, DEFRA 2023, SFOE, Ecoinvent 3.9. Full methodology at https://ecotrax-events.vercel.app/methodology",
     "note": "This is a curated subset for transparency. The complete EcoTrax emission factor library includes proprietary adjustment factors not published here."
   },
   "food_beverage": {
     "_unit": "kg CO2e per kg of food served",
+    "_scope": "Scope 3 — cradle-to-plate (production, processing, transport, packaging)",
     "_source": "Agribalyse 3.1 (ADEME)",
     "beef": 26.942,
     "lamb": 22.137,
@@ -36,6 +38,7 @@
   },
   "transport": {
     "_unit": "kg CO2e per passenger-km",
+    "_scope": "Scope 3 — well-to-wheel (fuel production + combustion)",
     "_source": "Mobitool.ch 2023 / DEFRA 2023",
     "car_petrol_average": 0.1921,
     "car_diesel_average": 0.1773,
@@ -53,6 +56,7 @@
   },
   "waste": {
     "_unit": "kg CO2e per tonne of waste",
+    "_scope": "Scope 3 — gate-to-grave (treatment only, not collection transport)",
     "_source": "WRAP UK 2023",
     "landfill_mixed": 467.3,
     "landfill_food_waste": 584.1,
@@ -64,5 +68,82 @@
     "recycling_glass": -43.71,
     "recycling_plastic_pet": -223.4,
     "recycling_aluminium": -1672.3
+  },
+  "utilities": {
+    "_unit": "See per-item _unit fields",
+    "_scope": "Scope 1 (direct combustion) and Scope 2 (purchased energy)",
+    "_source": "DEFRA 2023 / SFOE 2023 / Ecoinvent 3.9 / ADEME Base Carbone",
+    "electricity_swiss_grid": {
+      "_unit": "kg CO2e per kWh",
+      "_scope": "Scope 2",
+      "_source": "SFOE 2023",
+      "value": 0.1283
+    },
+    "electricity_eu_average": {
+      "_unit": "kg CO2e per kWh",
+      "_scope": "Scope 2",
+      "_source": "IEA 2023",
+      "value": 0.2761
+    },
+    "electricity_france": {
+      "_unit": "kg CO2e per kWh",
+      "_scope": "Scope 2",
+      "_source": "ADEME Base Carbone 2023",
+      "value": 0.0512
+    },
+    "electricity_germany": {
+      "_unit": "kg CO2e per kWh",
+      "_scope": "Scope 2",
+      "_source": "UBA 2023",
+      "value": 0.3813
+    },
+    "electricity_uk": {
+      "_unit": "kg CO2e per kWh",
+      "_scope": "Scope 2",
+      "_source": "DEFRA 2023",
+      "value": 0.2071
+    },
+    "natural_gas_combustion": {
+      "_unit": "kg CO2e per kWh (gross calorific value)",
+      "_scope": "Scope 1",
+      "_source": "DEFRA 2023",
+      "value": 0.18282
+    },
+    "natural_gas_per_m3": {
+      "_unit": "kg CO2e per m³",
+      "_scope": "Scope 1",
+      "_source": "DEFRA 2023",
+      "value": 2.0431
+    },
+    "lpg_combustion": {
+      "_unit": "kg CO2e per litre",
+      "_scope": "Scope 1",
+      "_source": "DEFRA 2023",
+      "value": 1.5551
+    },
+    "diesel_stationary": {
+      "_unit": "kg CO2e per litre (stationary generator)",
+      "_scope": "Scope 1",
+      "_source": "DEFRA 2023",
+      "value": 2.6891
+    },
+    "water_supply": {
+      "_unit": "kg CO2e per m³",
+      "_scope": "Scope 3",
+      "_source": "DEFRA 2023",
+      "value": 0.1491
+    },
+    "water_treatment": {
+      "_unit": "kg CO2e per m³",
+      "_scope": "Scope 3",
+      "_source": "DEFRA 2023",
+      "value": 0.7081
+    },
+    "district_heating": {
+      "_unit": "kg CO2e per kWh",
+      "_scope": "Scope 2",
+      "_source": "Ecoinvent 3.9 (European average)",
+      "value": 0.1843
+    }
   }
 }

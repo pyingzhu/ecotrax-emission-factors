@@ -5,7 +5,7 @@
     "licence": "CC BY-NC-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "copyright": "© 2026 EcoTrax, Geneva, Switzerland",
-    "attribution": "Derived from Agribalyse 3.1 (ADEME), Mobitool.ch 2023, WRAP UK. Full methodology at https://ecotrax.ch/methodology",
+    "attribution": "Derived from Agribalyse 3.1 (ADEME), Mobitool.ch 2023, WRAP UK. Full methodology at https://ecotrax-events.vercel.app/methodology",
     "note": "This is a curated subset for transparency. The complete EcoTrax emission factor library includes proprietary adjustment factors not published here."
   },
   "food_beverage": {

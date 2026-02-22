@@ -2,11 +2,11 @@
 
 **Version:** 2026-02
 **Licence:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-**Maintained by:** [EcoTrax](https://ecotrax.ch) — Geneva, Switzerland
+**Maintained by:** [EcoTrax](https://ecotrax-events.vercel.app) — Geneva, Switzerland
 
 ---
 
-A curated, open-source subset of the emission factors used by [EcoTrax](https://ecotrax.ch) to calculate the carbon footprint of corporate events. Published for transparency and to support the broader sustainability community.
+A curated, open-source subset of the emission factors used by [EcoTrax](https://ecotrax-events.vercel.app) to calculate the carbon footprint of corporate events. Published for transparency and to support the broader sustainability community.
 
 ## What's included
 
@@ -30,7 +30,7 @@ The complete EcoTrax emission factor library also includes:
 - Staff commute and logistics vehicle factors
 - AV and lighting power factors
 
-These remain internal. For the full methodology, see [ecotrax.ch/methodology](https://ecotrax.ch/methodology).
+These remain internal. For the full methodology, see [ecotrax-events.vercel.app/methodology](https://ecotrax-events.vercel.app/methodology).
 
 ## Usage
 

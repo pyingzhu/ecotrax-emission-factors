@@ -3,6 +3,7 @@
 **Version:** 2026-02
 **Licence:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 **Maintained by:** [EcoTrax](https://ecotrax-events.vercel.app) — Geneva, Switzerland
+**DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18731989.svg)](https://doi.org/10.5281/zenodo.18731989)
 
 ---
 
@@ -48,7 +49,7 @@ const footprint = 10 * factors.food_beverage.beef; // → 269.42 kg CO₂e
 
 If you use this data, please cite:
 
-> EcoTrax (2026). *Public Emission Factors — Curated Subset* (v2026-02). Geneva, Switzerland. Derived from Agribalyse 3.1 (ADEME), Mobitool.ch 2023, WRAP UK 2023. https://github.com/pyingzhu/ecotrax-emission-factors
+> EcoTrax (2026). *Public Emission Factors — Curated Subset* (v2026-02). Geneva, Switzerland. Derived from Agribalyse 3.1 (ADEME), Mobitool.ch 2023, WRAP UK 2023. https://doi.org/10.5281/zenodo.18731989
 
 ## Primary Sources
 
@@ -63,7 +64,7 @@ See [CHANGELOG.md](CHANGELOG.md) for a full history of additions and corrections
 
 Each release is tagged (e.g. `v2026-02`) and listed under [GitHub Releases](https://github.com/pyingzhu/ecotrax-emission-factors/releases).
 
-> **Note:** A Zenodo DOI for formal citation in academic and ESG reports is planned for v2026-06.
+> **DOI:** [10.5281/zenodo.18731989](https://doi.org/10.5281/zenodo.18731989) — citable in academic papers and ESG reports.
 
 ## Licence
 

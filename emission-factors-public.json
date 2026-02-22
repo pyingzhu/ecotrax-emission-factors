@@ -7,6 +7,7 @@
     "copyright": "© 2026 EcoTrax, Geneva, Switzerland",
     "source_repository": "https://github.com/pyingzhu/ecotrax-emission-factors",
     "attribution": "Derived from Agribalyse 3.1 (ADEME), Mobitool.ch 2023, WRAP UK, DEFRA 2023, SFOE, Ecoinvent 3.9. Full methodology at https://ecotrax-events.vercel.app/methodology",
+    "doi": "10.5281/zenodo.18731989",
     "note": "This is a curated subset for transparency. The complete EcoTrax emission factor library includes proprietary adjustment factors not published here."
   },
   "food_beverage": {
